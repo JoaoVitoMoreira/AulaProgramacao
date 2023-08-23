@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Cadastre-se aqui</h1>
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        <br><br>
+        <label for="dataNasc">Data de nascimento:</label>
+        <input type="date" id="dataNasc" name="dataNasc">
+        <label for="arquivo"> - Escolha uma foto:</label>
+        <input type="file" id="arquivo" name="arquivo">
+        <br><br>
+        <label for="naci">Nacionalidade:</label>
+        <select name="naci" id="naci">
+            <option value="bra">Brasileira</option>
+            <option value="pol">Polonesa</option>
+            <option value="ucr">Ucraniana</option>
+        </select>
+        <label for="gen"> - Gênero:</label>
+        <input type="radio" id="fem" name="gen">
+        <label for="fem">Feminino</label>
+        <input type="radio" id="masc" name="gen">
+        <label for="masc">Masculino</label>
+        <input type="radio" id="outro" name="gen">
+        <label for="outro">Outro</label>
+        <br><br><br><br>
+        <h4>Áreas de interesse</h4>
+        <br><br>
+        <label for="prog">Programação</label>
+        <input type="checkbox" id="prog" name="prog">
+        <label for="infr">| Infraestrutura</label>
+        <input type="checkbox" id="infr" name="infr">
+        <label for="int">| Inteligência artificial</label>
+        <input type="checkbox" id="int" name="int"> 
+        <label for="cie">| Ciência de dados</label>
+        <input type="checkbox" id="cie" name="cie">
+        <br><br>
+        <textarea name="text" id="text" cols="30" rows="10" placeholder="O que te trouxe para a área de tecnologia?"></textarea>
+        <br>
+        <input type="submit" id="cadastro" name="cadastro" value="Cadastrar"> 
+    </form>
+</body>
+</html>
