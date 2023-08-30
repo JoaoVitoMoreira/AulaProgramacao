@@ -15,7 +15,10 @@
         <input type="email" id="email" name="email">
         <br><br>
         <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha">
+        <input type="password" id="senha" name="senha" required onblur="valida()">
+        <br><br>
+        <label for="confSenha">Confirme sua senha:</label>
+        <input type="password" id="confSenha" name="confSenha" required onblur="valida()">
         <br><br>
         <label for="dataNasc">Data de nascimento:</label>
         <input type="date" id="dataNasc" name="dataNasc">
@@ -52,4 +55,5 @@
         <input type="submit" id="cadastro" name="cadastro" value="Cadastrar"> 
     </form>
 </body>
+<script src="main.js"></script>
 </html>
