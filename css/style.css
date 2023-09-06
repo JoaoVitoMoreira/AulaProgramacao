@@ -1,0 +1,40 @@
+body{
+    background-color: darkcyan;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    display: inline-block;
+    border: solid 1px black;
+}
+
+h4 {
+    color: darksalmon;
+    margin: 0;
+}
+
+ul{
+    display: inline-block;
+    margin: 2rem;
+} 
+li{
+    color: white;
+    text-align: left;
+}
+
+.a{
+    color:  brown;
+}
+
+h3{
+    margin: 0;
+}
+
+fieldset{
+    display: inline-block;
+    background-color: burlywood;
+    padding: 0;
+    border: solid 2px black;
+    width: 70%;
+}
