@@ -1,0 +1,52 @@
+.fundo{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right ,rgb(206, 206, 206), rgb(172, 172, 172));
+}
+.caixa{
+    display: inline-block;
+    border-radius: 8px;
+    border-color: crimson;
+    width: 18rem;
+    height: 1.6rem;
+    font-family: 'Cabin', sans-serif;
+    background-color: dimgray;
+    color: black;
+}
+label{
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+.form{
+    display: inline-block;
+    text-align: left;
+}
+.n{
+    margin: 0.5rem 0;
+}
+.end{
+    margin: 0.5rem 0;
+}
+.cid{
+    margin: 0.5rem 0;
+}
+.cp{
+    margin: 0.5rem 0;
+}
+legend{
+    font-size: 2.3rem;
+    margin: 0.8rem 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.botao{
+    font-family: 'Cabin', sans-serif;
+    background-color: crimson;
+    border: 2px solid darkred;
+    font-weight: bold ;
+    height: 1.6rem;
+    width: 8rem;
+    border-radius: 8px;
+    margin-left: 0.8rem;
+}
