@@ -32,7 +32,7 @@
       <div class="post-content">
         <section class="conteudo">
             <div class="itens">
-                <a href="content/node.html"><p>NODE</p></a>
+                <a href="#" onclick="entrar()"><p>NODE</p></a>
             </div>
             <div class="itens">
                 <a href="content/react.html"><p>REACT</p></a>
@@ -43,17 +43,37 @@
     <hr />
     <div class="post">
       <p class="date">04 de outubro de 2023</p>
-      <p>
-      </p>
       <h1>Terceira Publicação do Blog do Programador</h1>
-      <div class="post-content">
+      <div class="post-content seletor">
         <select name="passatempo" id="passatempo" onchange="trocaimg()">
             <option value="frifa">FreeFire</option>
             <option value="mineirin">Mineirinho</option>
-            <option value=""></option>
+            <option value="sonic">Sonic</option>
         </select>
-        <div>
-            <img src="imagens/frifa.jpg" alt="Frifas">
+        <div class="img-seletor">
+            <span id="imagem"><img src="imagens/frifa.jpg" alt=""></span>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="date">05 de outubro de 2023</p>
+      <h1>Quarta Publicação do Blog do Programador</h1>
+      <div class="container-bio post-content"> 
+        <div class="cabecario">
+          <h2 class="nome">João Vitor Moreira</h2>
+          <img src="imagens/user.png" alt="#" class="img-user">
+        </div>
+        <div class="lista">
+          <ul>
+            <li>Estudante de Frontend</li>
+            <li>Conhecimento de CSS</li>
+            <li>Conhecimento de HMTL</li>
+            <li>Conhecimento de JavaScript</li>
+          </ul>
+        </div>
+        <div class="descricao">
+          <p>Sou estudante de Engenharia de Software na UGV, estou cursando o segundo periodo e este é um de meus projetos, um blog falando de programação, onde mostro um pouco do que eu sei no Frontend</p>
         </div>
       </div>
     </div>

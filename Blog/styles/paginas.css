@@ -27,3 +27,8 @@
     align-items: center;
     justify-content: center;
 }
+
+.img-node {
+    width: 2rem;
+    height: 30%;
+}
