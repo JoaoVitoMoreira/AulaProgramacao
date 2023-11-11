@@ -1,3 +1,29 @@
 .paginas {
     text-align: center;
 }
+
+.titulo {
+    padding: 1rem;    
+}
+
+.parag {
+    padding: 1rem;
+    text-align: left;
+}
+
+.image {
+    padding: 1rem;
+    display: inline-block;
+}
+
+.link{
+    padding: 2rem;
+    text-align: left;
+}
+
+.cont-img {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
